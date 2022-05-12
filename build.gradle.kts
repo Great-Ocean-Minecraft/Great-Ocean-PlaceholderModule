@@ -19,7 +19,7 @@ dependencies {
 
 tasks {
 	compileKotlin { kotlinOptions { jvmTarget = "17" } }
-	reobfJar { outputJar.set(file(rootProject.projectDir.absolutePath + "/build/IonCore.jar")) }
+	reobfJar { outputJar.set(file(rootProject.projectDir.absolutePath + "/build/IonModule.jar")) }
 	shadowJar { minimize() }
 }
 
